@@ -2,8 +2,9 @@
 // in terminal
 
 import Timer from "./Timer.js"
-import List from "./List.js"
+import Agenda from "./Agenda.js"
 import { daySelector, displayWeekday } from "./Date.js"
+import Objective from "./Objective.js";
 
 let date = new Date();
 let day = date.getDay();
@@ -13,10 +14,13 @@ new Timer (
     document.querySelector(".timer")
 )
 
-new List (
-    document.querySelector(".list")
+new Agenda (
+    document.querySelector(".agenda")
 )
 
+new Objective (
+    document.querySelector(".objective")
+)
 
 
 let dayOfWeek = daySelector(day) + ', ' + String(dayNum);

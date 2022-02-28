@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: #000814;
+    
+}
+
+body {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+}
+
+#weekday {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    color: pink;
+    font-size: 200px;
+    margin-bottom: 10px;
+    opacity: 30%;
+}
+
+/* -------- center of screen -------- */
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.objective-header {
+    color: #003566;
+    font-weight: bolder;
+    margin-bottom: 20px;
+    font-size: 64px;
+}
+
+.objective-text {
+    color: #003566;
+    font-size: 18px;
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+
+.add-objective-btn {
+    color: #003566;
+    border: none;
+}
+
+.add-objective-btn:hover {
+    color: #00356695;
+    cursor: pointer;
+}
+
+/* -------- left side of screen -------- */
+.left {
+    flex: 1;
+    font-size: 25px;
+    color: #ffc300;
+    /* text-shadow: 0 2px 2px #b6701e; */
+    opacity: 80%;
+}
+
+
+/* -------- right side of screen -------- */
+
+.right {
+    flex: 1;
+    font-size: 25px;
+    color: #d81159;
+    opacity: 80%;
+}
+
+.timer {
+    display: inline-block;
+    padding: 15px;
+    border-radius: 30px;
+    font-size: 36px;
+}
+
+.timer-control-btn {
+    background-color: transparent;
+    color: #d81159;
+    border: none;
+}
+.timer-control-btn:hover {
+    color: #d8115a76;
+    cursor: pointer;
+}
+
+.timer-reset-btn {
+    background-color: transparent;
+    color: #d81159;
+    border: none;
+}
+.timer-reset-btn:hover {
+    color: #d8115a76;
+    cursor: pointer;
+}
+
+.add-item-btn {
+    color: #ffc300;
+    border: none;
+    margin-top: 20px;
+
+}
+
+.add-item-btn:hover {
+    color: #ffc4005b;
+    cursor: pointer;
+
+
+}
